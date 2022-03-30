@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset = "utf-8" />
+<meta charset = "utf-8" />
 <title> Burger </title>
-  <link href="missionburger.css" rel="stylesheet" type= "text/css">
-  <link href="missionburger.js" rel="stylesheet" type= "text/js">
-  </head>
-  <body>
-   <h1 style="text-align:center;" font-family:courier; background-color:PapayaWhip;> Den magiska absolut fantatiska perfekta burgaren</h1>
-<button class="tablink" onclick="openPage('perfekta brödet', this, 'red')">Perfekta brödet </button>
-<button class="tablink" onclick="openPage('Kvalitekött', this, 'green')" id="defaultOpen">Kvalitekött</button>
-<button class="tablink" onclick="openPage('tilläg', this, 'blue')">Exemplariska tilläg</button>
-<button class="tablink" onclick="openPage('Pommes', this, 'orange')">Guldiga krispiga pommes</button>
-<button class="tablink" onclick="openPage('Om oss', this, 'orange')">Om oss</button>
-<div id="brödet" class="tabcontent">
+<link href="../slut projekt/css/missionburger.css" rel="stylesheet" type= "text/css">
+<link href="missionburger.js" rel="stylesheet" type= "text/js">
+</head>
+<body>
+
+<h1 style="text-align:center;" font-family:courier; background-color:papayaWhip;> Den magiska absolut fantatiska perfekta burgaren</h1>
+<button class="burger" onclick="openPage('perfekta brödet', this, 'red')">Perfekta brödet </button>
+<button class="burger" onclick="openPage('Kvalitekött', this, 'green')" id="defaultOpen">Kvalitekött</button>
+<button class="burger" onclick="openPage('tilläg', this, 'blue')">Exemplariska tilläg</button>
+<button class="burger" onclick="openPage('Pommes', this, 'orange')">Guldiga krispiga pommes</button>
+<button class="burger" onclick="openPage('Om oss', this, 'lightblue')">Om oss</button>
+
+<div id="brödet" class="burgare">
   <h3>Burger Buns</h3>
   <p>Brödet är början på det perfekta burgare, vilken burgare har ingen bröd?.</p>
 </div>
 
-<div id="Kött" class="tabcontent">
+<div id="Kött" class="burgare">
   <h3>Köttet</h3>
   <p>Stjärnan av det hela, en burgare utan kött är som att leva utan syre</p>
 </div>
 
-<div id="tilläg" class="tabcontent">
+<div id="tilläg" class="burgare">
   <h3>tilläg</h3>
   <p>Vi förstår nu att kött och bröd är NÖDVÄNDIGA men det finns alltid rum för utveckling. Alltså tillägg lika med bättre burgare. </p>
 </div>
 
-<div id="Pommes" class="tabcontent">
+<div id="Pommes" class="burgare">
   <h3>Pommes</h3>
   <p>Det går inte att käka bara burgare, det måste bara finnas. Om du vill debattera, snacka med en vägg psyco</p>
 </div>
 
-    <div id="Om oss" class="tabcontent">
-      <h3> Om oss </h3>
-      <p> Att skapa den perfekta burgaren är vårt uppdrag, ta reda mer på oss. </p>
-    </div>
+<div id="Om oss" class="burgare">
+  <h3>Om oss</h3>
+  <p> Att skapa den perfekta burgaren är vårt uppdrag, ta reda på mer om oss. </p>
+</div>
 
 </body>
-
-
-
-
-
 
 
 
